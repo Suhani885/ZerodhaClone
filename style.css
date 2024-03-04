@@ -1,7 +1,167 @@
 h1 {
-    color: #000;
+    color: #413f3f;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.h {
+    color: #413f3f;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.head {
+    color: #434242;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+h5 {
+    color: #434242;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    line-height: 1;
+}
+
+ul {
+    color: #767171;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.5px;
 }
 
 p{
-    color: #2f2e2e;
+    color: #767171;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.5px;
 }
+
+.para {
+    text-align: center;
+}
+
+.firstimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center-button {
+    text-align: center;
+} 
+button {
+    border: none;
+    color: white;
+    background-color: rgb(48, 109, 200);
+    padding: 5px 12px;
+    cursor: pointer;
+    border-radius: 4%;
+    font-size: 13px;
+}
+button:hover {
+    background-color : black;
+}
+
+.secondimg {
+    object-fit: cover;
+    width: 270px;
+    height: 220px;
+    margin-top: 15px;
+}
+
+.thirdimg {
+    width: 330px;
+    height: 80px;
+    position: absolute;
+    right: 100px;
+}
+
+.fourimg {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    right: 100px;
+    object-fit: cover;
+}
+
+.fiveimg {
+    object-fit: cover;
+    padding-left: 20px;
+    width: 250px;
+    height: 210px;
+    position: absolute;
+    left: 60px;
+}
+
+.flex-container {
+    display: flex;
+    margin: 50px 70px;
+}
+
+.flex1container {
+        display: flex;
+        margin: 50px 100px;
+}
+
+.box1 {
+    flex: 1;
+}
+
+.box2 {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.box {
+    text-align: left;
+    flex: 1;
+    padding-right: 150px;
+}
+
+.box3 {
+    flex: 1;
+    text-align: right;
+}
+
+.box4 {
+    flex: 1;
+}
+
+.box5 {
+    display: flex;
+    margin: 20px;
+    flex: 1;
+}
+
+.b {
+    flex: 1;
+    text-align: center;
+    border: 0.5px solid #767171;
+    padding: 3px 10px;
+}
+
+.b1 {
+    flex: 1;
+}
+
+.link {
+    color: #4183ce;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link:hover {
+    color : black;
+}
+
+
+
+
+
+
+
