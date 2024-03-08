@@ -228,7 +228,7 @@ footer .main-footer li a{
     /* border-bottom: 100px; */
     display: inline-block;
     padding-left: 150px;
-    margin: 10px;
+    margin: 5px;
     border-color: #666;
 }
 /* .comp{
@@ -271,5 +271,33 @@ footer .main-footer li a{
     display: inline-block;
 }
 .include{
-    display: inline-block;
+    display: flex;
+    /* flex: ; */
+}
+.footer-grave ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+    width:100%;
+    align-items: center;
+    font-size: medium;
+}
+#g{
+    margin: 10px;
+}
+.handles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+    width:100%;
+    align-items: center;
+
+}
+#lone{
+    margin: 10px;
+}
+.footer-col{
+    padding: 40px;
 }
