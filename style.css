@@ -213,18 +213,26 @@ button:hover {
 }
 
 @media (min-width: 1020px) {
-    .flex-container,
-    .flex1container {
+    .flex-container{
         margin: 15px 5px;
         font-size: x-large;
         word-spacing: 3px;
         line-height: 1.5;
+        margin-left: 50px;
+    }
+
+    .flex1container {
+        margin: 10px 5px;
+        font-size: x-large;
+        word-spacing: 3px;
+        line-height: 1.5;
+        padding: 50px;
+        margin-left: 100px;
     }
 
     body {
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
 
     .box,
@@ -233,8 +241,7 @@ button:hover {
     .box4,
     .box5,
     .b1 {
-        padding-right: 0px;
-        padding: 20px;
+        padding: 5px;
     }
 
     .fourimg {
@@ -250,21 +257,47 @@ button:hover {
         padding-bottom: 100px;
         height: 130px;
         width: 600px;
-        align-items: right;
+        left: 550px;
     }
 
-    .firstimg,
-    .secondimg,
-    .fiveimg {
-        width: auto;
+    .secondimg {
+        height: 400px;
+        width: 390px;
+        padding: 30px;
+    }
+
+    .fiveimg { 
+        height: 350px;
+        width: 400px;
+        padding: 20px;
     }
 
     .firstimg {
         margin-top: 100px;
+        width: auto;
     }
 
-    .center-button {
-        margin: 0;
+    .center-button{
+        margin-left: 100px;
+        margin-bottom: 100px;
+        margin-top: 30px;
+    }
+
+    .para {
+        margin-left: 100px;
+        font-size: 23px;
+        line-height: 0.7px;
+    }
+
+    h1 {
+        font-size: 60px;
+        margin-left: 100px;
+    }
+
+    .h {
+        font-size: 40px;
+        margin-left: 100px;
+        line-height: 0.5px;
     }
 
 }
