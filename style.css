@@ -2,8 +2,9 @@ h1 {
     color: #413f3f;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    /* font-weight: 100; */
-    font-size: larger;
+    font-weight: 100;
+    font-size: 50px;
+    margin-top: 50px;
 }
 
 .h {
@@ -19,6 +20,7 @@ h1 {
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
+    display: flex;
 }
 
 h5 {
@@ -29,17 +31,19 @@ h5 {
 }
 
 ul {
-    color: #767171;
+    color: #817f7f;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 9px;
+    font-size: large;
     letter-spacing: 0.5px;
 }
 
 p{
-    color: #767171;
+    color: #817f7f;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 9px;
     letter-spacing: 0.5px;
+    font-size: large;
+    line-height: 1.6;
 }
 
 .para {
@@ -60,10 +64,11 @@ button {
     border: none;
     color: white;
     background-color: rgb(48, 109, 200);
-    padding: 5px 12px;
+    padding: 10px 25px;
     cursor: pointer;
     border-radius: 4%;
-    font-size: 13px;
+    font-size: large;
+    line-height: 1.6;
 }
 button:hover {
     background-color : black;
@@ -74,6 +79,7 @@ button:hover {
     width: 270px;
     height: 220px;
     margin-top: 15px;
+    display: block;
 }
 
 .thirdimg {
@@ -81,6 +87,7 @@ button:hover {
     height: 80px;
     position: absolute;
     right: 100px;
+    display: block;
 }
 
 .fourimg {
@@ -89,6 +96,7 @@ button:hover {
     position: absolute;
     right: 100px;
     object-fit: cover;
+    display: flex;
 }
 
 .fiveimg {
@@ -98,6 +106,7 @@ button:hover {
     height: 210px;
     position: absolute;
     left: 60px;
+    display: block;
 }
 
 .flex-container {
@@ -127,7 +136,6 @@ button:hover {
 
 .box3 {
     flex: 1;
-    text-align: right;
 }
 
 .box4 {
@@ -154,22 +162,82 @@ button:hover {
 .link {
     color: #4183ce;
     text-decoration: none;
-    font-size: 10px;
+    font-size: large;
+    line-height: 1.6;
     font-family: Arial, Helvetica, sans-serif;
 }
 .link:hover {
     color : black;
 }
 
+@media (max-width: 468px) {
+    .flex-container,
+    .flex1container {
+        flex-direction: column;
+        margin: 20px;
+        word-spacing: 3px;
+        font-size: x-large;
+    }
 
+    .box,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .b1 {
+        padding-right: 0;
+    }
 
-h1 {
-    color: #000;
+    .thirdimg,
+    .fourimg,
+    .fiveimg {
+        position: static;
+        margin: 0;
+        width: 100%;
+    }
+
+    .firstimg,
+    .secondimg {
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top: 50px;
+    }
+
+    .center-button {
+        margin-bottom: 80px ;
+    }
+
+    .box5 {
+        display: block;
+        margin-bottom: 50px;
+    }
 }
 
-p{
-    color: #2f2e2e;
-}
+@media (min-width: 1020px) {
+    .flex-container,
+    .flex1container {
+        margin: 15px 5px;
+        font-size: x-large;
+        word-spacing: 3px;
+        line-height: 1.5;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .b1 {
+        padding-right: 0px;
+        padding: 20px;
+    }
+
 .navbar-brand{
     text-decoration: none;
     
@@ -272,7 +340,6 @@ footer .main-footer li a{
 }
 .include{
     display: flex;
-    /* flex: ; */
 }
 .footer-grave ul{
     display: flex;
@@ -283,6 +350,7 @@ footer .main-footer li a{
     align-items: center;
     font-size: medium;
 }
+  
 #g{
     margin: 10px;
 }
@@ -299,5 +367,36 @@ footer .main-footer li a{
     margin: 10px;
 }
 .footer-col{
-    padding: 40px;
-}
+  padding: 40px;
+  }
+  
+    .fourimg {
+        position: absolute;
+        margin: 0;
+        left: 500px;
+        width: 600px;
+        height: 600px;
+        padding: 40px;
+    }
+  
+    .thirdimg {
+        position: absolute;
+        padding-bottom: 100px;
+        height: 130px;
+        width: 600px;
+        align-items: right;
+    }
+
+    .firstimg,
+    .secondimg,
+    .fiveimg {
+        width: auto;
+    }
+
+    .firstimg {
+        margin-top: 100px;
+    }
+
+    .center-button {
+        margin: 0;
+    }
