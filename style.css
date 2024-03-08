@@ -210,6 +210,11 @@ button:hover {
         display: block;
         margin-bottom: 50px;
     }
+    .head,
+    .h,
+    h1 {
+        font-weight: 500;
+    }
 }
 
 @media (min-width: 1020px) {
